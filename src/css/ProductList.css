@@ -1,0 +1,32 @@
+.product-list {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.category-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-tabs button {
+  padding: 10px 20px;
+  border: none;
+  background-color: lightgrey;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.category-tabs button.active {
+  background-color: green;
+  color: white;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
